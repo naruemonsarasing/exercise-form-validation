@@ -9,7 +9,6 @@
   margin: 10px;
   padding: 10px;
 }
-
 .Button:first-of-type {
   margin-left: 0;
   padding-left: 0;
@@ -96,6 +95,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Invalid {
+  border: 1px solid red;
+  background-color: #FDA49A;
+}
+
+.ErrorMessage {
+  color: red;
+  margin: 5px 0;
 }
 
 .App-link {
