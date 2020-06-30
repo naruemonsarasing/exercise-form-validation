@@ -71,7 +71,7 @@ class App extends React.Component {
             placeholder="Phone Number"
           />
           <Input
-            name="firstname"
+            name="firstName"
             value={firstName.value}
             onChangeInput={this.onChangeInput}
             placeholder="First name"
